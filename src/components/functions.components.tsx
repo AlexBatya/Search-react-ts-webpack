@@ -4,7 +4,7 @@ import React from 'react';
 export function axiosReq(url: string){
     return {
         method: 'GET', 
-        url: 'http://localhost:3001' + url,  
+        url: 'http://localhost:3000' + url,  
         headers: {
             'Content-Type': 'application/json',
         },
